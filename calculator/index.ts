@@ -18,3 +18,12 @@ console.log(answer)
 if(answer.operator==="addition"){
     console.log(answer.firstnumber + answer.secondnumber);
 }
+if(answer.operator==="subtraction"){
+    console.log(answer.firstnumber - answer.secondnumber);
+}
+if(answer.operator==="multiplication"){
+    console.log(answer.firstnumber * answer.secondnumber);
+}
+if(answer.operator==="division"){
+    console.log(answer.firstnumber / answer.secondnumber);
+}
